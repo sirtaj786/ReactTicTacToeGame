@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 60px;
+}
+table td {
+    border: 1px solid gray;
+    width: 100px;
+    height: 100px;
+
+}
+.turn{
+    color: teal;
+    font-size: 30px;
+}
+
+
+.clear-button{
+   
+    background-color: red;
+    color: black;
+    cursor: pointer;
+}
+.p{
+    color: green;
+}
+.winner-btn{
+    background-color: green;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
